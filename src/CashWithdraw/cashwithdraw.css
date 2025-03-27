@@ -1,0 +1,85 @@
+.container{
+    background-color:#150b3e;
+    height: 400px;
+    width: 300px;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    border-radius: 20px;
+   
+}
+.maincard{
+    display: flex
+    ;
+        gap: 15px;
+        flex-direction: column;
+}
+.card1{
+    display: flex;
+    gap: 20px;
+}
+.card2{
+    display: flex
+    ;
+        gap: 20px;
+        flex-direction: column;
+}
+.header{
+    display: flex
+    ;
+        flex-direction: row;
+        gap: 20px;
+        
+        align-items: center;
+}
+.profile{
+    height:50px;
+    width:50px;
+
+    display: flex
+    ;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    background-color:  #c7d2fe;
+    border-radius:50%;
+    font-family: roboto;
+    color:  #382f5a;
+    font-weight: bold;
+    font-size: 15px;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.rrrr{
+    color:#c4c4c4;
+    font-size: 7px;
+}
+.para{
+    color: #d4d2db;
+    font-family: roboto;
+    font-size:16px;
+}
+.balance{
+    display: flex
+    ;
+        flex-direction: row;
+        align-items: center;
+       
+        gap: 30px;
+        color:#d4d2db;
+}
+/* .amountSec{
+    display: flex;
+    gap:20px;
+} */
+.price{
+    color:#c4c4c4;
+    font-family: roboto;
+    font-size: 20px;
+}
